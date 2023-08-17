@@ -9,18 +9,19 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<form action="#" method ="post" >
-	<label>Name</label>
-	<input type="text" required id="name" minlength="3", maxlength="50"><br>
+	<label for="name">Name</label>
+	<input type="text" required id="name" name="name" minlength="3", maxlength="50" ><br>
 
 	
-	<label>Portfolio</label>
-	<input type="url" required id="portfoloio"><br>
+	<label for="portfolio">Portfolio</label>
+	<input type="url" required id="portfoloio" name="portfolio"><br>
 	
-	<label>Favourite Color</label>
-	<input type="color" required id="favColor"><br>
+	<label for="favColor">Favourite Color</label>
+	<input type="color" required id="favColor" name="favColor"><br>
 	
-	<label>Likeness</label>
-<input type="range" required id="likeness" min="1", max="100"><br>
+	<label for="likeness">Likeness</label>
+<input type="range" required id="likeness" name="likeness" min="1", max="100"><br>
+		<input type="submit" value="Submit">
 	</form>
     <script type="text/javascript" src="./script.js">
 </script>
